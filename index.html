@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 02-cv-boxed -->
+    <title>Chris Felt</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+
+    <!-- Font -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+
+    <!-- <link href="common-css/bootstrap.css" rel="stylesheet" /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link href="common-css/ionicons.css" rel="stylesheet" />
+
+    <link href="common-css/fluidbox.min.css" rel="stylesheet" />
+
+    <link href="02-cv-boxed/css/styles.css" rel="stylesheet" />
+
+    <link href="02-cv-boxed/css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="intro-section">
+      <div class="container">
+        <div class="intro">
+          <div class="row">
+            <div class="col-sm-8 col-md-4 col-lg-3">
+              <div class="profile-img margin-b-30">
+                <img src="images/linkedin-pic-crop.jpg" alt="" />
+              </div>
+            </div>
+            <!-- col-sm-8 -->
+
+            <div class="col-sm-10 col-md-5 col-lg-6">
+              <h2><b>Chris Felt</b></h2>
+              <h4 class="font-yellow">Software Engineer</h4>
+              <ul class="information margin-tb-30">
+                <li><b class="font-yellow">PHONE</b> : (208) 431-0069</li>
+                <li>
+                  <b class="font-yellow">EMAIL</b> : chris.h.felt@gmail.com
+                </li>
+              </ul>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- col-sm-8 -->
+
+            <div class="col-sm-10 col-md-3 col-lg-3">
+              <a class="downlad-btn" href="#" on-click="downloadResume()"
+                >Download Resume</a
+              >
+            </div>
+            <!-- col-lg-2 -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- intro -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- intro-section -->
+
+    <section class="about-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <div class="heading">
+              <h3><b>About me</b></h3>
+              <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+            </div>
+          </div>
+          <!-- col-sm-3 -->
+          <div class="col-sm-12 col-md-9">
+            <blockquote class="mb-5">
+              <h4>
+                “The more I learn, the more I realize how much I don’t know” -
+                Albert Einstein
+              </h4>
+            </blockquote>
+
+            <p class="margin-b-50">
+              Ever since I first heard this quote, I have found it inspiring.
+              For me, the quote does not depict a daunting abundance of
+              ungraspable knowledge. Rather, it speaks to the endless adventures
+              in understanding that are possible. I love to learn and to develop
+              new skills. I especially like to challenge myself on topics I find
+              particularly difficult. I also like to use newly acquired
+              knowledge to produce results that are far beyond what is expected
+              of me.
+            </p>
+            <p class="margin-b-50">
+              The seemingly endless learning opportunities is one of the reasons
+              that software development is a passion of mine. I am fascinated by
+              every facet of it. This includes everything from UX to devops and
+              from writing documentation to styling best practices. My eagerness
+              to learn is constantly being satisfied by the amount of knowledge
+              that already exists and the cascade of new developments that occur
+              in the industry. During my studies at Codeworks, I have had the
+              opportunity to work on a team to develop web applications. This
+              experience ignited a desire in me to experience working on teams
+              of varying sizes and for learning project management paradigms
+              such as Agile and SCRUM. I want to work with others who possess
+              the same passion for learning that I do. I want to work in an
+              environment that encourages learning and the sharing of knowledge
+              between peers. I believe that this attitude and environment leads
+              to high productivity and to a healthy and motivated work force.
+            </p>
+          </div>
+          <!-- col-sm-9 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- about-section -->
+
+    <section class="portfolio-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <div class="heading">
+              <h3><b>Portfolio</b></h3>
+              <h6 class="font-lite-black"><b>MY WORK</b></h6>
+            </div>
+          </div>
+          <!-- col-sm-3 -->
+
+          <div class="col-sm-12 col-md-9">
+            <div class="portfolioFilter clearfix margin-b-80">
+              <a href="#" data-filter="*" class="current"><b>ALL</b></a>
+              <a href="#" data-filter=".graphic-design"><b>Vue</b></a>
+              <a href="#" data-filter=".web-design"><b>Node/Express</b></a>
+              <a href="#" data-filter=".branding"><b>C#/.NET</b></a>
+              <a href="#" data-filter=".graphic-design"><b>Python/Django</b></a>
+            </div>
+            <!-- portfolioFilter -->
+          </div>
+          <!-- col-sm-8 -->
+        </div>
+        <!-- row -->
+
+        <div class="portfolioContainer margin-b-50">
+          <div class="p-item web-design">
+            <a
+              id="firstAnchor"
+              class=""
+              href="#exampleModalCenter"
+              type="button"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              <img src="images/portfolio-13-400x400.jpg" alt="" />
+            </a>
+          </div>
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item branding graphic-design">
+            <a href="images/portfolio-14-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-14-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item web-design">
+            <a href="images/portfolio-15-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-15-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item graphic-design">
+            <a class="img" href="images/portfolio-16-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-16-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item branding graphic-design">
+            <a href="images/portfolio-17-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-17-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item graphic-design web-design">
+            <a href="images/portfolio-18-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-18-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item graphic-design branding">
+            <a href="images/portfolio-19-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-19-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+
+          <div class="p-item web-design branding">
+            <a href="images/portfolio-20-400x400.jpg" data-fluidbox>
+              <img src="images/portfolio-20-400x400.jpg" alt=""
+            /></a>
+          </div>
+          <!-- p-item -->
+        </div>
+        <!-- portfolioContainer -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- portfolio-section -->
+
+    <section class="skills-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 center-text">
+            <div class="heading">
+              <h3><b>Web Applications</b></h3>
+              <h6 class="font-lite-black">
+                <b>Tech Breakdown of Web Applications</b>
+              </h6>
+            </div>
+          </div>
+          <!-- col-sm-12 -->
+
+          <div class="col-sm-12 col-md-6">
+            <h4><b>HOMESCHOLAR</b></h4>
+            <!-- <h6 class="expert">EXPERT</h6> -->
+
+            <p class="margin-tb-30">
+              Assignment management application for homeschooling teachers
+              offering scheduling and chat functionality
+            </p>
+
+            <div class="line-progress" data-prog-percent=".581">
+              <div></div>
+              <p class="progress-title"><b>Vue</b></p>
+            </div>
+
+            <div class="line-progress" data-prog-percent=".311">
+              <div></div>
+              <p class="progress-title"><b>JS</b></p>
+            </div>
+
+            <div class="line-progress" data-prog-percent=".09">
+              <div></div>
+              <p class="progress-title"><b>CSS</b></p>
+            </div>
+
+            <div class="line-progress" data-prog-percent=".018">
+              <div></div>
+              <p class="progress-title"><b>HTML</b></p>
+            </div>
+          </div>
+          <!-- col-md-6 -->
+
+          <div class="col-sm-12 col-md-6">
+            <h4><b>GRAPHIC DESIGN</b></h4>
+            <h6 class="expert">EXPERT</h6>
+
+            <p class="margin-tb-30">
+              Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+              neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla maximus pellentes que velit, quis consequat
+              nulla effi citur at.
+            </p>
+
+            <div class="line-progress margin-b-20" data-prog-percent=".97">
+              <div></div>
+              <p class="progress-title"><b>PHOTOSHOP</b></p>
+            </div>
+
+            <div class="line-progress margin-b-50" data-prog-percent=".97">
+              <div></div>
+              <p class="progress-title"><b>ILLUSTRATOR</b></p>
+            </div>
+          </div>
+          <!-- col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- skills-section -->
+
+    <section class="radial-progress-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 center-text">
+            <div class="heading">
+              <h3><b>My Top Languages</b></h3>
+              <h6 class="font-lite-black">
+                <b>Languages as a percent of gitHub contributions</b>
+              </h6>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="radial-prog-area margin-b-30">
+              <div class="radial-progress" data-prog-percent=".62">
+                <div></div>
+                <h6 class="progress-title">JavaScript</h6>
+              </div>
+            </div>
+            <!-- radial-prog-area-->
+          </div>
+          <!-- col-sm-6-->
+
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="radial-prog-area margin-b-30">
+              <div class="radial-progress" data-prog-percent=".24">
+                <div></div>
+                <h6 class="progress-title">Python</h6>
+              </div>
+            </div>
+            <!-- radial-prog-area-->
+          </div>
+          <!-- col-sm-6-->
+
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="radial-prog-area margin-b-30">
+              <div class="radial-progress" data-prog-percent=".13">
+                <div></div>
+                <h6 class="progress-title">Vue</h6>
+              </div>
+            </div>
+            <!-- radial-prog-area-->
+          </div>
+          <!-- col-sm-6-->
+
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="radial-prog-area margin-b-50">
+              <div class="radial-progress" data-prog-percent=".13">
+                <div></div>
+                <h6 class="progress-title">HTML & CSS</h6>
+              </div>
+            </div>
+            <!-- radial-prog-area-->
+          </div>
+          <!-- col-sm-6-->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- radial-progress-section -->
+
+    <section class="experience-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <div class="heading">
+              <h3><b>Work Experience</b></h3>
+              <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+            </div>
+          </div>
+          <!-- col-sm-3 -->
+
+          <div class="col-sm-12 col-md-9">
+            <div class="experience margin-b-50">
+              <h4><b>SOFTWARE ENGINEERING STUDENT</b></h4>
+              <h5 class="font-yellow"><b>Boise CodeWorks</b></h5>
+              <h6 class="font-lite-black margin-t-10">
+                APRIL 2020 - July 2020
+              </h6>
+              <!-- <p class="margin-tb-30">
+                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nulla maximus pellentes que velit, quis
+                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
+                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
+                sit amet sodales.
+              </p> -->
+              <ul class="list margin-b-30 mt-3">
+                <li>
+                  Developed several frontend projects using JavaScript and the
+                  Vue.js framework including Vuex and Routes
+                </li>
+                <li>
+                  Used C# and the .NET framework and the MVCS design pattern to
+                  build several API backends
+                </li>
+                <li>
+                  Built several APIs utilizing the MVCS design pattern,
+                  Express.js and Node.js
+                </li>
+                <li>
+                  Created dynamic webpage layouts using the Bootstrap CSS
+                  framework
+                </li>
+                <li>
+                  Collaborated on projects with other students and managed
+                  projects using the Scrum framework
+                </li>
+                <li>
+                  Partner programmed with other students to develop web
+                  application
+                </li>
+              </ul>
+            </div>
+            <!-- experience -->
+
+            <div class="experience margin-b-50">
+              <h4><b>OPERATIONS ANALYST</b></h4>
+              <h5 class="font-yellow"><b>AmeriBen</b></h5>
+              <h6 class="font-lite-black margin-t-10">
+                MAY 2018 - DECEMBER 2019
+              </h6>
+              <!-- <p class="margin-tb-30">
+                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nulla maximus pellentes que velit, quis
+                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
+                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
+                sit amet sodales.
+              </p> -->
+              <ul class="list margin-b-30 mt-3">
+                <li>
+                  Developed reports to improve decision making and outcomes for
+                  clients regarding their employee medical benefits plan
+                </li>
+                <li>
+                  Built VBA scripts to streamline processes and improve the
+                  efficiency of the Analytics team
+                </li>
+                <li>
+                  Applied calculation checks and attention to detail to ensure
+                  accuracy of data and reports
+                </li>
+                <li>
+                  Provided effective reports by communicating with other
+                  departments to determine exact reporting needs for clients
+                </li>
+              </ul>
+            </div>
+            <div class="experience margin-b-50">
+              <h4><b>GIS ANALYST</b></h4>
+              <h5 class="font-yellow"><b>TEKsystems</b></h5>
+              <h6 class="font-lite-black margin-t-10">
+                SEP 2017 - MAY 2018
+              </h6>
+              <!-- <p class="margin-tb-30">
+                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nulla maximus pellentes que velit, quis
+                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
+                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
+                sit amet sodales.
+              </p> -->
+              <ul class="list margin-b-30 mt-3">
+                <li>
+                  Analyzed data and maintained datasets for department wide
+                  projects for the Idaho Department of Lands
+                </li>
+                <li>
+                  Improved process efficiency by developing scripts in Python to
+                  automate data analysis tasks
+                </li>
+              </ul>
+            </div>
+            <div class="experience margin-b-50">
+              <h4><b>GRADUATE RESEARCH ASSISTANT</b></h4>
+              <h5 class="font-yellow"><b>Boise State University</b></h5>
+              <h6 class="font-lite-black margin-t-10">
+                AUG 2015 - SEP 2017
+              </h6>
+              <!-- <p class="margin-tb-30">
+                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nulla maximus pellentes que velit, quis
+                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
+                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
+                sit amet sodales.
+              </p> -->
+              <ul class="list margin-b-30 mt-3">
+                <li>
+                  Effectively communicated with and supported researchers from
+                  various departments and universities
+                </li>
+                <li>
+                  Worked independently performing research, statistical analysis
+                  and providing narrative to research findings
+                </li>
+                <li>
+                  Analyzed spatial urbanization data that required advanced
+                  knowledge of R, Python, ArcGIS and other data analysis tools
+                </li>
+              </ul>
+            </div>
+            <!-- experience -->
+          </div>
+          <!-- col-sm-9 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- experience-section -->
+
+    <section class="education-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 center-text">
+            <div class="heading">
+              <h3><b>Education</b></h3>
+              <h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+            </div>
+          </div>
+          <!-- col-sm-3 -->
+
+          <div class="col-sm-12">
+            <div class="education-wrapper margin-b-50">
+              <div class="education right">
+                <h4><b>IMMERSIVE FULLSTACK PROGRAM</b></h4>
+                <h5 class="">
+                  <b>BOISE CODEWORKS</b>
+                </h5>
+                <h6 class="font-lite-black margin-t-10">
+                  JULY 2020
+                </h6>
+                <p class="margin-t-30">
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Nulla maximus pellentes que
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat arcu, eu mollis tellus. Sed
+                  finibus aliquam neque sit amet sodales.
+                </p>
+              </div>
+              <!-- education -->
+
+              <div class="education left">
+                <h4><b>M.A POLITICAL SCIENCE</b></h4>
+                <h5 class=""><b>BOISE STATE UNIVERSITY</b></h5>
+                <h6 class="font-lite-black margin-t-10">
+                  MAY 2017
+                </h6>
+                <p class="margin-t-30">
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Nulla maximus pellentes que
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat arcu, eu mollis tellus. Sed
+                  finibus aliquam neque sit amet sodales.
+                </p>
+              </div>
+              <!-- education -->
+
+              <div class="education right">
+                <h4><b>B.A. ECONOMICS</b></h4>
+                <h5 class=""><b>BOISE STATE UNIVERSITY</b></h5>
+                <h6 class="font-lite-black margin-t-10">
+                  MAY 2015
+                </h6>
+                <p class="margin-t-30">
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Nulla maximus pellentes que
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat arcu, eu mollis tellus. Sed
+                  finibus aliquam neque sit amet sodales.
+                </p>
+              </div>
+              <!-- education -->
+            </div>
+            <!-- education-wrapper -->
+          </div>
+          <!-- col-sm-9 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+    <!-- education-section -->
+
+    <footer>
+      <p class="copyright">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script> -->
+        <!-- All rights reserved | This template is made with
+        <i class="ion-heart" aria-hidden="true"></i> by
+        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </p>
+    </footer>
+
+    <!-- SCIPTS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="common-js/jquery-3.2.1.min.js"></script>
+
+    <script src="common-js/tether.min.js"></script>
+
+    <script src="common-js/bootstrap.js"></script>
+
+    <script src="common-js/isotope.pkgd.min.js"></script>
+
+    <script src="common-js/jquery.waypoints.min.js"></script>
+
+    <script src="common-js/progressbar.min.js"></script>
+
+    <script src="common-js/jquery.fluidbox.min.js"></script>
+
+    <script src="common-js/scripts.js"></script>
+  </body>
+</html>
