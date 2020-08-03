@@ -193,6 +193,6 @@ $(document).ready(function () {
   });
 });
 
-function downloadResume() {
-  var downloading = browser.downloads.download({'resume.pdf'})
-}
+// function downloadResume() {
+//   var downloading = browser.downloads.download({'resume.pdf'})
+// }
