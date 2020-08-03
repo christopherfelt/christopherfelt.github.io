@@ -49,20 +49,20 @@ var progressColor = "#5390d9";
   //     return;
   //   });
 
-  if ($.isFunction($.fn.fluidbox)) {
-    $("a").fluidbox();
-  }
+//   if ($.isFunction($.fn.fluidbox)) {
+//     $("a").fluidbox();
+//   }
 
-  var countCounterUp = 0;
+//   var countCounterUp = 0;
 
-  var a = 0;
+//   var a = 0;
 
-  countCounterUp = enableCounterUp(countCounterUp);
+//   countCounterUp = enableCounterUp(countCounterUp);
 
-  $(window).on("scroll", function () {
-    countCounterUp = enableCounterUp(countCounterUp);
-  });
-})(jQuery);
+//   $(window).on("scroll", function () {
+//     countCounterUp = enableCounterUp(countCounterUp);
+//   });
+// })(jQuery);
 
 function panelAccordian() {
   var panelTitle = $(".panel-title");

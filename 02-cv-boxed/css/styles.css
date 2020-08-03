@@ -389,6 +389,49 @@ b.max-bold {
 }
 
 /* ---------------------------------
+5. Web Applications SECTION
+--------------------------------- */
+
+.webapps .list > li {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.webapps .list > li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #555;
+}
+
+.webapp-image {
+  border: 1px solid lightgray;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 1px black;
+}
+
+.webapp-image:hover {
+  box-shadow: 0 0 4px 1px black;
+}
+
+/* ---------------------------------
+5. Skills SECTION
+--------------------------------- */
+
+.skills {
+  font-size: 70px;
+}
+
+/* ---------------------------------
 5. EXPERIENCE SECTION
 --------------------------------- */
 
